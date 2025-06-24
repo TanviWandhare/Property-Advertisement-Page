@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+header{
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
+
+header h1{
+    margin: 20px;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* hero */
+.hero {
+    background-image: url('test.jpg'); /* Replace with actual image */
+    height: 400px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 180px; /* Adjust to move it vertically */
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent dark overlay */
+    width: 50%;
+    margin: 0 auto; /* center horizontally */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* optional for depth */
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* container */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Sections */
+.details, .about, .property-video, .property-location, .cta {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+}
+
+.cta input {
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cta button {
+    margin-top: 10px;
+}
+
+.cta button a {
+    color:white;
+    text-decoration: none;
+    font-size: 200;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
