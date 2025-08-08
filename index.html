@@ -11,6 +11,13 @@
     <!-- Navbar -->
     <header>
         <h1>PropertyBazaar</h1>
+        <!-- <button id="toggleTheme"> -->
+           <div class="container " id="toggleTheme">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                <label for="checkbox" class="label"> </label>
+           </div>
+        <!-- </button> -->
+    </div>
     </header>
 
     <!-- Hero Section -->
@@ -75,8 +82,11 @@
         <section class="cta">
             <h3>Want to Know More About This Property?</h3>
             <p>Subscribe to our newsletter for updates.</p>
-            <input type="email" placeholder="Enter your email" required>
-            <button class="btn"><a href="thankPAGE.html">Subscribe</a></button>
+            
+            <form id="subscribeForm">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button class="btn" type="submit">Subscribe</button>
+            </form>
         </section>
 
     </div>
@@ -86,5 +96,6 @@
         <p>&copy; 2025 PropertyBazaar | Made with ❤️ for our ninjas</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thankyou Page</title>
+    <link rel="stylesheet" href="style.css"/>
 
     <style>
         body {
@@ -67,7 +68,10 @@
 </head>
 <body>
     <header>
-        <h1>PropertyBazaar</h1>
+        <h1>PropertyBazaar</h1>  
+        <div class="container " id="toggleTheme">
+                <button class="btn"><a href="index.html">Back</a></button>
+        </div>
     </header>
     <div class="thankyou-container">
         <h1>Thank You for Subscribing!</h1>
@@ -83,5 +87,13 @@
             <a href="https://www.instagram.com/" target="_blank">Instagram</a>
         </div>
     </div>
+
+    <script src="script.js"></script>
+    <script>
+        function showThankYouAlert() {
+            alert("Thank you for subscribing to PropertyBazaar!");
+        }
+        showThankYouAlert();
+    </script>
 </body>
 </html>
