@@ -1,6 +1,6 @@
 # 🏠 Property Advertisement Website
 
-A modern, responsive **Property Advertisement** website designed using **HTML** and **CSS only**, with JavaScript added for enhanced interactivity. This project allows users to browse property ads in a clean and visually appealing format.
+A modern, responsive **Property Advertisement** website designed using **HTML**, **CSS**, and **a touch of JavaScript**. The site showcases multiple property listings with a clean layout and includes interactive features like smooth scrolling, email validation, and theme toggling.
 
 ---
 
