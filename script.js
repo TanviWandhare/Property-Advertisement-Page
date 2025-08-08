@@ -1,11 +1,14 @@
 function applyThemeFromStorage() {
   const theme = localStorage.getItem("theme");
-  if (theme === "dark") {
+
+  // If no theme is set in localStorage, default to light
+  if (!theme || theme === "light") {
+    document.body.classList.remove("dark");
+    localStorage.setItem("theme", "light"); // explicitly set light
+    document.getElementById("checkbox").checked = false;
+  } else if (theme === "dark") {
     document.body.classList.add("dark");
     document.getElementById("checkbox").checked = true;
-  } else {
-    document.body.classList.remove("dark");
-    document.getElementById("checkbox").checked = false;
   }
 }
 
