@@ -25,7 +25,4 @@ A modern, responsive **Property Advertisement** website designed using **HTML**,
   - Smooth scroll behavior
   - Email input validation
 
----
-
-## 📁 Folder Structure
 
